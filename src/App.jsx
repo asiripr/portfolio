@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import profilePhoto from './assets/2024d.jpg';
 
 function App() {
   return (
@@ -7,12 +8,9 @@ function App() {
       {/* Header Section */}
       <header className="bg-primary text-white text-center py-5">
         <div className="container">
-          <img
-            src="assets/2024d.jpg"
-            alt="Asiri Pramodaya"
-            className="rounded-circle mb-4"
-            style={{ width: '150px', height: '150px', objectFit: 'cover' }}
-          />
+          <div>
+            <img src={profilePhoto} alt="Asiri Pramodaya" className="profile-photo" />
+          </div>
           <h1>Asiri Pramodaya</h1>
           <p>BSc (Hons) Computing and Information Systems Undergraduate</p>
         </div>
@@ -123,7 +121,7 @@ function App() {
       <section id="contact" className="py-5">
         <div className="container text-center">
           <h2>Contact</h2>
-          <p>Email: asiripramodaya@example.com</p>
+          <p>Email: asiripramodaya@gmail.com</p>
           <p>
             LinkedIn: <a href="https://linkedin.com/in/asiripramodaya">linkedin.com/in/asiripramodaya</a>
           </p>
