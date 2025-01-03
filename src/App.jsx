@@ -8,10 +8,14 @@ import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Volunteering from './components/Vounteering';
+import ThemeToggle from './utils/ThemeToggle';
 
 function App() {
   return (
     <>
+      {/* Change Theme option */}
+      <ThemeToggle />
+
       {/* Header Section */}
       <Header />
 
